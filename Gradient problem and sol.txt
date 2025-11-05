@@ -1,0 +1,9 @@
+1. when gradient is too large: Steeper slope tends to overshoot. Instead of converging, it begin to diverge.
+Solution: Add learning rate and choose good value of it.
+
+2. When function doesn't have bowl shape, slope does not take you to absolute lowest point. local minima issue.
+Solution: Add momentum
+
+3. When gradients are too small, it stuck in instant local minima.
+Solution: Increase learning rate
+
