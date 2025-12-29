@@ -1,0 +1,24 @@
+1. Step function: Threshold-based activation function
+Advantages - good for binary classification
+Disadvantages - does not work for multi-class classification
+
+2. Sigmoid function: normalize output between 0-1
+Advantages - provides clear predictions. For X above 2 or below -2, 
+the value of Y is close to 1 or 0.
+Disadvantages - When input is very high or low, the re is no change in predictions. 
+Therefore, neural netowk ultimatelty refuses to learn further. "vanishing gradient"
+Computationally expensive
+
+3. Tanh function: output ranges between -1 to 1
+Advantages - Allows negative outputs unlike Sigmoid
+Disadvantages - Vanishing gradient problem, computationally expensive
+
+4. ReLu: for positive input values output ranges from 0 to infinite and 
+for zero or negative input values output is zero
+Advantages - Computationally efficient
+Disadvantages - Dying ReLu problem. When inputs are zero or negative, 
+the gradient of the function becomes zero.
+ Hence, the network is unable to perform backpropogation. It cannot learn.
+
+ 5. Softmax: utilized for output layer classification problems
+ Advantages- handles multiple classes
