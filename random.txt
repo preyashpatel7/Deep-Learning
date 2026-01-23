@@ -14,3 +14,7 @@
     l1_error = np.multiply(dh1.T, out_h1 * (1 - out_h1))
     dW1 = np.dot(x.T, l1_error) 
     db1 = np.sum(l1_error, axis=0, keepdims=True)
+
+
+# LSTM Learning
+https://colah.github.io/posts/2015-08-Understanding-LSTMs/
