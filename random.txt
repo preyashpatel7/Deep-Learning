@@ -18,3 +18,25 @@
 
 # LSTM Learning
 https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+https://blog.mlreview.com/understanding-lstm-and-its-diagrams-37e2f46f1714
+http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+LSTM working: http://www.bioinf.jku.at/publications/older/2604.pdf
+Different LSTM analysis paper: https://arxiv.org/pdf/1503.04069.pdf
+
+
+Project Ideas:
+1. Rock-paper-scissors using opencv
+2. Image based search engine: ResNet -> Feature Vector -> cosine similarity/vector search
+3. AI Image captioning bot: train LASTM based CNN model and use some pretrained models.
+                            Input - Image, output - generate caption for the image.
+                            Use Flask for web-based app (light-weight than Django)
+
+4. AI music generation: Train model to generate sequential data and convert it to audio files. 
+                        RNN/LSTM. Learning: audio processing, sine/cosine waves
+
+5. Fake human face generator: Train model on real human images and generate random human face
+                              images. GANS
+
+6. Text Summarization: two type of Summarization techniques - extractive and abstractive.
+                       First build extractive based summarizer then abstractive. 
+                       Need Sequence to Sequence model and some ways to generate summary text. 

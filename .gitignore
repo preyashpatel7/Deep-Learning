@@ -3,8 +3,13 @@ datasets/GoogleNews-vectors-negative300.bin.gz
 datasets/pokemon/
 
 
-
+#misc ignore
 random.txt
 Activation function guide.txt
 Gradient problem and sol.txt
+
+#model ignore
+best_model.h5
+datasets/glove.6B.50d.txt
+
 
